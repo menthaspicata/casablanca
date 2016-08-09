@@ -304,9 +304,9 @@ li.active {
 	font-family: "BigJhon"; 
 	color: black;
 	padding-top: 159px;
-   font-size: 25.5px;
-   position: relative;
-   text-align: center;
+	font-size: 25.5px;
+	position: relative;
+	text-align: center;
 
 }
 
@@ -314,7 +314,7 @@ li.active {
 	content: '';
 	display: block;
 	position: absolute;
-	bottom: 510px;
+	bottom: 585px;
 	right: 47.5%;
 	width: 74px;
 	background: #000;
