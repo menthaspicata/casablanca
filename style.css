@@ -174,7 +174,7 @@ li.active {
 }
 
 .container {
-	width: 989px;
+	width: 100%;
 	margin: 73px auto 0;
 
 }
@@ -317,7 +317,7 @@ li.active {
 	bottom: 510px;
 	right: 47.5%;
 	width: 74px;
-	background: #fff;
+	background: #000;
 	height: 1px;
 }
 
@@ -433,7 +433,7 @@ li.active {
    background-position: center;
 	height: 54px;
 	width: 53px;
-	margin-left: 646px;
+	margin: 0 auto;
 	padding-top: 367px;
    
 }
@@ -466,7 +466,7 @@ li.active {
 	right: 47.5%;
 	width: 74px;
 	background: #000;
-	height: 2px;
+	height: 1px;
 }
  
 
@@ -516,16 +516,19 @@ li.active {
 
 .iphone {
 	width: 21%;
+	margin-left: 73px;
 
 }
 
 .ipad {
 	width: 51%;
+	margin-left: 51px;
 
 }
 
 .mac {
 	width: 68%;
+	margin-left: 30px;
 }
 
 .quote { 	
@@ -681,7 +684,7 @@ input.btn-black1 {
 	border: 2px solid black;
 	display: block;
 	padding: 11px;
-	width: 153px;
+	width: 28%;
 	margin: 0 auto;
 	margin-top: 34px;
 	margin-left: 413px;
@@ -723,4 +726,8 @@ footer p{
 
 footer img {
 	width: 321px;
+}
+
+.slick-arrow {
+	display: none !important;
 }
